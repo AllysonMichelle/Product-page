@@ -1,0 +1,138 @@
+header {
+    position: fixed;
+}
+ul {
+    list-style-type: none; 
+    background-color: #FFE5BE; 
+    top: 0; 
+    width: 100%;
+    color: #001A00;
+    position: fixed;
+}
+#first {
+    display: inline; 
+    list-style-type: none;
+    font-size: 175px;
+}
+#second {
+    display: inline; 
+    list-style-type: none;
+    font-size: 175px;
+}
+#thrid {
+    display: inline; 
+    list-style-type: none;
+    font-size: 175px;
+}
+body {
+    margin-top: 250px;
+}
+#header-img {
+    height: 200px;
+    width: auto;
+    display: inline;
+    float: left;
+}
+#nav-bar {
+    display: inline;
+    text-align: center;
+    padding: 25px;
+}
+.nav-link {
+    color: #264D23; 
+    hover-color: #001A00; 
+    font-size: 30px; 
+    display: inline-block;
+    
+}
+#form {
+    color: #DA7F58; 
+    font-size: 20px; 
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+#email {
+    color: #DA7F58; 
+    font-size: 30px; 
+    border-radius: 10px; 
+    text-align: center; 
+    width: 800px;  
+    background-color: #FFEBCE;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#submit {
+    color: #DA7F58; 
+    font-size: 30px; 
+    border-radius: 10px; 
+    text-align: center; 
+    width: 200px; 
+    background-color: #FFEBCE;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#patterns {
+    color: #FFB28B; 
+    font-size: 100px; 
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#patterns1 {
+    color: #FFB28B; 
+    font-size: 50px; 
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#socks {
+    height: 200px; 
+    width: auto; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+}
+#tutorials {
+    color: #F49972; 
+    font-size: 100px; 
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tutorials1 {
+    color: #F49972; 
+    font-size: 50px; 
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+}
+#hats {
+    color: #DA7F58; 
+    font-size: 100px; 
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+#hats1 {
+    color: #DA7F58; 
+    font-size: 50px; 
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+#headband {
+    width: 300px; 
+    height: auto; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+@media (max-height: 900px) {#email {font-size: 15px;}}
